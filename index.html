@@ -3,11 +3,53 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- VUEJS -->
+
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
         <!-- STYLE CSS -->
         <link rel="stylesheet" href="./assets/css/app.css">
         <title>Teambit</title>
     </head>
         <body>
-            
+            <div id="app">
+                <nav id="navbar">
+                    <section class="navbar_left">
+                        <div class="nav-logo">
+                            <img src="./assets/img/logo.svg" alt="logo Teambit faccia sorridente">
+                        </div>
+                    </section>  
+                    <section class="navbar_right">
+                        <ul>
+                            <li v-for="link in navlinks">{{link}}</li>
+                            <button class="btn_navbar">
+                                <img src="./assets/img/google-logo.svg" alt="">
+                                 sign up
+                            </button>
+                        </ul>
+                    </section>
+                </nav>
+                <header>
+
+                </header>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <script src="./assets/js/app.js"></script>
         </body>
 </html>

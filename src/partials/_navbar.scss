@@ -1,0 +1,44 @@
+#navbar {
+    @include flex(center, space-between);
+    width: 75%;
+    height: 50px;
+    border-bottom: 1px solid $colorTxtBrown;
+}
+
+.navbar_left {
+    width: 30%;
+    padding: $paddingBottom_10;
+}
+
+.navbar_right {
+    @include flex(right, flex-end);
+    width: 40%;
+    padding: $paddingBottom_10;
+
+    li {
+        font-size: 0.9rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        list-style: none;
+        display: inline;
+        padding: 0 1.5rem;
+        color: $colorTxtBrown;
+    }
+
+    button {
+        color: $colorBtnBlue;
+        font-weight: 600;
+        text-transform: capitalize;
+        padding: 0.6rem 1.2rem;
+        background: none;
+        outline: none;
+        border: 1px solid $colorBtnBlue;
+        border-radius: 5px;
+        vertical-align: middle;
+
+        img {
+            display: inline-block;
+            height: 1.2rem;
+        }
+    }
+}

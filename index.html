@@ -3,36 +3,49 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- VUEJS -->
-
         <!-- GOOGLE FONTS -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+        <!-- FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/fc3e9057b4.js" crossorigin="anonymous"></script>
         <!-- STYLE CSS -->
         <link rel="stylesheet" href="./assets/css/app.css">
         <title>Teambit</title>
     </head>
         <body>
             <div id="app">
-                <nav id="navbar">
+                <!-- NAVBAR -->
+                <nav id="navbar" class="container">
                     <section class="navbar_left">
                         <div class="nav-logo">
-                            <img src="./assets/img/logo.svg" alt="logo Teambit faccia sorridente">
+                            <img src="./src/img/logo.svg" alt="logo Teambit faccia sorridente">
                         </div>
                     </section>  
                     <section class="navbar_right">
                         <ul>
                             <li v-for="link in navlinks">{{link}}</li>
                             <button class="btn_navbar">
-                                <img src="./assets/img/google-logo.svg" alt="">
+                                <img src="./src/img/google-logo.svg" alt="">
                                  sign up
                             </button>
                         </ul>
                     </section>
                 </nav>
-                <header>
-
+                <!-- xxx NAVBAR -->
+                <!-- HEADER -->
+                <header id="header" class="container">
+                    <div class="header_left"> 
+                        <h1>Understand, recognize <br> and develop your <br> people</h1>
+                        <p>Teambit helps teams create a high performing  <br> culture feedback.</p>
+                        <div class="header_buttons">
+                            <button> <img src="./src/img/google-logo.svg" alt="">Sign up with Google</button>
+                            <span>or</span>
+                            <button> <img src="./src/img/slack-logo.svg" alt="">   Sign up with Slack</button>
+                            <a href="#">or use your email address <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
                 </header>
+                <!-- xxx HEADER -->
 
 
 

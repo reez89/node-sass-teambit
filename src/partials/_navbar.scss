@@ -1,6 +1,5 @@
 #navbar {
     @include flex(center, space-between);
-    width: 75%;
     height: 50px;
     border-bottom: 1px solid $colorTxtBrown;
 }
@@ -39,6 +38,7 @@
         img {
             display: inline-block;
             height: 1.2rem;
+            vertical-align: middle;
         }
     }
 }

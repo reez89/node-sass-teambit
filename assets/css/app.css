@@ -364,6 +364,7 @@ a {
   justify-content: flex-end;
   width: 100vw;
   margin-top: 3.5rem;
+  padding-bottom: 2.5rem;
 }
 #help a {
   color: #2c4792;
@@ -407,4 +408,86 @@ a {
 }
 .employee_help img {
   width: 100%;
+}
+
+#get-started {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background: #ffe7d2;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.information h2 {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  padding: 2.5rem 0;
+  color: #58402c;
+}
+.information a {
+  color: #58402c;
+  padding-bottom: 2.5rem;
+}
+
+.information_box {
+  position: relative;
+  background: white;
+  width: 35%;
+  padding: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid #2c4792;
+}
+.information_box p {
+  color: #58402c;
+  padding: 1rem 0;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row;
+}
+.team img {
+  height: 75px;
+  padding: 0 0.2rem;
+}
+.team p {
+  padding: 0 1rem;
+}
+.team p:first-child {
+  color: #2c4792;
+}
+
+.quotes {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: #2c4792;
+  font-size: 2.5rem;
+}
+
+.bottom_buttons {
+  padding: 2.5rem 0;
+}
+.bottom_buttons button {
+  background: #2c4792;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+}
+.bottom_buttons button img {
+  height: 20px;
+  vertical-align: middle;
+  display: inline-block;
 }

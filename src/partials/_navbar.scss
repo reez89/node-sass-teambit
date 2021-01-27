@@ -1,7 +1,7 @@
 #navbar {
     @include flex(center, space-between);
     height: 50px;
-    border-bottom: 1px solid $colorTxtBrown;
+    border-bottom: 1px solid $colorTxtLinks;
 }
 
 .navbar_left {
@@ -29,13 +29,13 @@
     }
 
     button {
-        color: $colorBtnBlue;
+        color: $colorTxtLinks;
         font-weight: 600;
         text-transform: capitalize;
         padding: 0.6rem 1.2rem;
         background: none;
         outline: none;
-        border: 1px solid $colorBtnBlue;
+        border: 1px solid $colorTxtLinks;
         border-radius: 5px;
         vertical-align: middle;
 

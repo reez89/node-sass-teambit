@@ -15,6 +15,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-flow: column;
+  flex-wrap: wrap;
   padding: 1.5rem 0;
 }
 
@@ -27,6 +28,88 @@ a {
   cursor: pointer;
 }
 
+@media screen and (max-width: 550px) {
+  .navbar_right i {
+    display: block !important;
+  }
+  .navbar_right ul {
+    display: none;
+  }
+
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+
+  .header_right,
+.header_left {
+    width: auto !important;
+  }
+
+  #main {
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+
+  .main_top_content,
+.main_bottom_content {
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+
+  #main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    flex-wrap: wrap;
+  }
+
+  #feedback,
+#survey,
+#reviews,
+#help {
+    display: flex !important;
+    flex-flow: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .employee_feedback,
+.employee_survey,
+.employee_reviews,
+.employee_help {
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .feedback_img,
+.survey_img,
+.reviews_img,
+.help_img {
+    width: 100% !important;
+  }
+
+  .information h2 {
+    text-align: center !important;
+  }
+
+  .information_box {
+    width: auto !important;
+  }
+
+  .links {
+    flex-wrap: wrap;
+  }
+
+  .links_content {
+    width: auto !important;
+  }
+}
 #navbar {
   display: flex;
   align-items: center;
@@ -46,6 +129,9 @@ a {
   justify-content: flex-end;
   width: 40%;
   padding: 0 0 10px 0;
+}
+.navbar_right .hamburger {
+  display: none;
 }
 .navbar_right li {
   font-size: 0.9rem;
@@ -82,7 +168,6 @@ a {
   background-size: 50%;
   background-repeat: no-repeat;
   padding: 2.5rem 0;
-  height: 90vh;
   padding: 4.5rem 0;
 }
 
@@ -91,6 +176,7 @@ a {
   align-items: flex-start;
   justify-content: none;
   flex-flow: column;
+  flex-wrap: wrap;
   width: 50%;
   color: #58402c;
 }

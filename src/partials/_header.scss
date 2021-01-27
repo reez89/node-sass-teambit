@@ -5,13 +5,13 @@
     background-size: 50%;
     background-repeat: no-repeat;
     padding: 2.5rem 0;
-    height: 90vh;
     padding: 4.5rem 0;
 }
 
 .header_left {
     @include flex(flex-start, none);
     flex-flow: column;
+    flex-wrap: wrap;
     width: 50%;
     color: $colorTxtBrown;
 

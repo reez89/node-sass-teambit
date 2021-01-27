@@ -1,0 +1,79 @@
+#main {
+    @include flex(center, center);
+    flex-flow: column;
+    width: 100vw;
+    background: $colorSalmone;
+}
+
+.main_top {
+    @include flex(center, none);
+    flex-flow: column;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid $colorTxtBrown;
+
+    h2 {
+        font-size: 2.5rem;
+        color: $colorTxtBrown;
+        text-align: center;
+        line-height: 3.5rem;
+    }
+
+
+}
+
+.main_top_content {
+    @include flex(center, space-around);
+    width: 100%;
+    text-align: center;
+
+}
+
+.content {
+    margin: 4rem 0;
+
+    img {
+        height: 150px;
+    }
+
+    p {
+        padding: 2.5rem 0;
+        color: $colorTxtBrown;
+    }
+}
+
+.img_top {
+    padding: 3.5rem 0;
+}
+
+.main_bottom {
+    @include flex(center, none);
+    flex-flow: column;
+    padding: 2.5rem 0;
+
+    h2 {
+        font-size: 2.5rem;
+        color: $colorTxtBrown;
+        text-align: center;
+        line-height: 3.5rem;
+    }
+}
+
+.main_bottom_content {
+    @include flex(center, space-around);
+    width: 100%;
+    text-align: center;
+}
+
+.content_bottom {
+    margin: 4rem 0;
+    width: calc(100% / 3);
+
+    img {
+        height: 150px;
+    }
+
+    p {
+        padding: 2.5rem 0;
+        color: $colorTxtBrown;
+    }
+}

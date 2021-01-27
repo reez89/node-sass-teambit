@@ -8,7 +8,6 @@ body {
   font-family: "Roboto", sans-serif;
   width: 100vw;
   height: 100vh;
-  background-image: url(/images/illustration-main.jpg?4546d9b111de47e6029b3301b0599399);
 }
 
 #app {
@@ -78,7 +77,6 @@ a {
   display: flex;
   align-items: none;
   justify-content: space-between;
-  background-image: url("/SAAS/node-sass-teambit/img2/illustration-main.jpg");
   background-position: 95% 15%;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -92,7 +90,7 @@ a {
   align-items: flex-start;
   justify-content: none;
   flex-flow: column;
-  width: 100%;
+  width: 50%;
   color: #58402c;
 }
 .header_left h1 {
@@ -124,5 +122,96 @@ a {
 .header_left a {
   display: block;
   padding-top: 1.5rem;
+  color: #58402c;
+}
+
+.header_right {
+  width: 50%;
+}
+.header_right .header_img {
+  width: 100%;
+}
+.header_right .header_img img {
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  width: 100vw;
+  background: #ffe7d2;
+}
+
+.main_top {
+  display: flex;
+  align-items: center;
+  justify-content: none;
+  flex-flow: column;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #58402c;
+}
+.main_top h2 {
+  font-size: 2.5rem;
+  color: #58402c;
+  text-align: center;
+  line-height: 3.5rem;
+}
+
+.main_top_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  margin: 4rem 0;
+}
+.content img {
+  height: 150px;
+}
+.content p {
+  padding: 2.5rem 0;
+  color: #58402c;
+}
+
+.img_top {
+  padding: 3.5rem 0;
+}
+
+.main_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: none;
+  flex-flow: column;
+  padding: 2.5rem 0;
+}
+.main_bottom h2 {
+  font-size: 2.5rem;
+  color: #58402c;
+  text-align: center;
+  line-height: 3.5rem;
+}
+
+.main_bottom_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+}
+
+.content_bottom {
+  margin: 4rem 0;
+  width: calc(100% / 3);
+}
+.content_bottom img {
+  height: 150px;
+}
+.content_bottom p {
+  padding: 2.5rem 0;
   color: #58402c;
 }

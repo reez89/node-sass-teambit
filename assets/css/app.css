@@ -28,88 +28,6 @@ a {
   cursor: pointer;
 }
 
-@media screen and (max-width: 550px) {
-  .navbar_right i {
-    display: block !important;
-  }
-  .navbar_right ul {
-    display: none;
-  }
-
-  #header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-flow: column;
-  }
-
-  .header_right,
-.header_left {
-    width: auto !important;
-  }
-
-  #main {
-    flex-wrap: wrap;
-    flex-flow: column;
-  }
-
-  .main_top_content,
-.main_bottom_content {
-    flex-wrap: wrap;
-    flex-flow: column;
-  }
-
-  #main-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-flow: column;
-    flex-wrap: wrap;
-  }
-
-  #feedback,
-#survey,
-#reviews,
-#help {
-    display: flex !important;
-    flex-flow: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-  }
-
-  .employee_feedback,
-.employee_survey,
-.employee_reviews,
-.employee_help {
-    align-items: center !important;
-    text-align: center !important;
-    width: 100% !important;
-  }
-
-  .feedback_img,
-.survey_img,
-.reviews_img,
-.help_img {
-    width: 100% !important;
-  }
-
-  .information h2 {
-    text-align: center !important;
-  }
-
-  .information_box {
-    width: auto !important;
-  }
-
-  .links {
-    flex-wrap: wrap;
-  }
-
-  .links_content {
-    width: auto !important;
-  }
-}
 #navbar {
   display: flex;
   align-items: center;
@@ -127,7 +45,7 @@ a {
   display: flex;
   align-items: right;
   justify-content: flex-end;
-  width: 40%;
+  width: 70%;
   padding: 0 0 10px 0;
 }
 .navbar_right .hamburger {
@@ -293,7 +211,6 @@ a {
 
 .content_bottom {
   margin: 4rem 0;
-  width: calc(100% / 3);
 }
 .content_bottom img {
   height: 150px;
@@ -614,4 +531,187 @@ a {
 .links_content li {
   color: #58402c;
   padding: 0.4rem 0;
+}
+
+@media screen and (min-width: 375px) and (max-width: 549px) {
+  .navbar_right i {
+    display: block !important;
+  }
+  .navbar_right ul {
+    display: none;
+  }
+
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+
+  .header_left h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .header_right,
+.header_left {
+    width: auto !important;
+  }
+
+  #main {
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+
+  .img_top {
+    width: 90% !important;
+  }
+  .img_top img {
+    width: 100% !important;
+  }
+
+  .main_top_content,
+.main_bottom_content {
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+
+  #main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    flex-wrap: wrap;
+  }
+
+  #feedback,
+#survey,
+#reviews,
+#help {
+    display: flex !important;
+    flex-flow: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .employee_feedback,
+.employee_survey,
+.employee_reviews,
+.employee_help {
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .feedback_img,
+.survey_img,
+.reviews_img,
+.help_img {
+    width: 100% !important;
+  }
+
+  .information h2 {
+    text-align: center !important;
+  }
+
+  .information_box {
+    width: auto !important;
+  }
+
+  .links {
+    flex-wrap: wrap;
+  }
+
+  .links_content {
+    width: auto !important;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 998px) {
+  .navbar_right i {
+    display: block !important;
+  }
+  .navbar_right ul {
+    display: none;
+  }
+
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+
+  .header_right,
+.header_left {
+    width: auto !important;
+  }
+
+  #main {
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+
+  .main_top_content,
+.main_bottom_content {
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+
+  .img_top {
+    width: 90% !important;
+  }
+  .img_top img {
+    width: 100% !important;
+  }
+
+  #main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    flex-wrap: wrap;
+  }
+
+  #feedback,
+#survey,
+#reviews,
+#help {
+    display: flex !important;
+    flex-flow: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .employee_feedback,
+.employee_survey,
+.employee_reviews,
+.employee_help {
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .feedback_img,
+.survey_img,
+.reviews_img,
+.help_img {
+    width: 100% !important;
+  }
+
+  .information h2 {
+    text-align: center !important;
+  }
+
+  .information_box {
+    width: auto !important;
+  }
+
+  .links {
+    flex-wrap: wrap;
+  }
+
+  .links_content {
+    width: auto !important;
+  }
 }

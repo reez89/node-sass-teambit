@@ -11,7 +11,7 @@
 
 .navbar_right {
     @include flex(right, flex-end);
-    width: 40%;
+    width: 70%;
     padding: $paddingBottom_10;
 
     .hamburger {

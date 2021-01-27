@@ -8,7 +8,6 @@ let app = new Vue({
                 'Pricing',
                 'Blog',
                 'Sign in',
-           ]
-       
+           ],
     },
 })

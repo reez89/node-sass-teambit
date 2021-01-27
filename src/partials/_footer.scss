@@ -1,0 +1,37 @@
+#footer {
+    @include flex(center, center);
+    width: 100vw;
+}
+
+.footer_info {
+    @include flex(flex-start, space-between);
+}
+
+
+
+.links {
+    @include flex(flex-start, space-between);
+    width: 100%;
+    padding: 2.5rem 0;
+}
+
+.links_content {
+    h3 {
+        color: $colorTxtBrown;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    p {
+        color: $colorTxtBrown;
+    }
+
+    li {
+        color: $colorTxtBrown;
+        padding: 0.4rem 0;
+    }
+
+    width: calc(100% / 6);
+}

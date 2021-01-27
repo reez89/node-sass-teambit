@@ -1,5 +1,6 @@
 #header {
     @include flex(none, space-between);
+    flex-wrap: wrap;
     background-position: 95% 15%;
     background-size: 50%;
     background-repeat: no-repeat;

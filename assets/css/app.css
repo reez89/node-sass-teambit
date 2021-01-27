@@ -77,6 +77,7 @@ a {
   display: flex;
   align-items: none;
   justify-content: space-between;
+  flex-wrap: wrap;
   background-position: 95% 15%;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -214,4 +215,196 @@ a {
 .content_bottom p {
   padding: 2.5rem 0;
   color: #58402c;
+}
+
+#feedback {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100vw;
+  margin-top: 3.5rem;
+}
+#feedback a {
+  color: #2c4792;
+}
+
+.feedback_img {
+  width: 50%;
+}
+
+.employee_feedback {
+  width: 20%;
+}
+
+.feedback_img img {
+  width: 100%;
+}
+
+.employee_feedback h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: #58402c;
+  padding-bottom: 3.5rem;
+}
+.employee_feedback p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #58402c;
+  line-height: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.employee_feedback a {
+  display: block;
+  padding-bottom: 1.5rem;
+}
+.employee_feedback img {
+  width: 100%;
+}
+
+#survey {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 100vw;
+  margin-top: 3.5rem;
+}
+#survey a {
+  color: #2c4792;
+}
+
+.survey_img {
+  width: 50%;
+}
+
+.employee_survey {
+  width: 20%;
+}
+
+.survey_img img {
+  width: 100%;
+}
+
+.employee_survey {
+  display: flex;
+  align-items: flex-start;
+  justify-content: none;
+  flex-flow: column;
+}
+.employee_survey h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: #58402c;
+  padding-bottom: 3.5rem;
+}
+.employee_survey p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #58402c;
+  line-height: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.employee_survey a {
+  display: block;
+  padding-bottom: 1.5rem;
+}
+.employee_survey img {
+  width: 100%;
+}
+
+#reviews {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100vw;
+  margin-top: 3.5rem;
+}
+#reviews a {
+  color: #2c4792;
+}
+
+.reviews_img {
+  width: 50%;
+}
+
+.employee_reviews {
+  width: 20%;
+}
+
+.reviews_img img {
+  width: 100%;
+}
+
+.employee_reviews h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: #58402c;
+  padding-bottom: 3.5rem;
+}
+.employee_reviews p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #58402c;
+  line-height: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.employee_reviews a {
+  display: block;
+  padding-bottom: 1.5rem;
+}
+.employee_reviews img {
+  width: 100%;
+}
+
+#help {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 100vw;
+  margin-top: 3.5rem;
+}
+#help a {
+  color: #2c4792;
+}
+
+.help_img {
+  width: 50%;
+}
+
+.employee_help {
+  width: 20%;
+}
+
+.help_img img {
+  width: 100%;
+}
+
+.employee_help {
+  display: flex;
+  align-items: flex-start;
+  justify-content: none;
+  flex-flow: column;
+}
+.employee_help h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: #58402c;
+  padding-bottom: 3.5rem;
+}
+.employee_help p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #58402c;
+  line-height: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.employee_help a {
+  display: block;
+  padding-bottom: 1.5rem;
+}
+.employee_help img {
+  width: 100%;
 }

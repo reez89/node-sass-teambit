@@ -1,0 +1,53 @@
+#survey {
+    @include flex(flex-start, flex-end);
+    width: 100vw;
+    margin-top: 3.5rem;
+
+    a {
+        color: $colorBtnBlue;
+    }
+}
+
+.survey_img {
+    width: 50%;
+}
+
+.employee_survey {
+    width: 20%;
+}
+
+.survey_img {
+    img {
+        width: 100%;
+    }
+}
+
+.employee_survey {
+    @include flex(flex-start, none);
+    flex-flow: column;
+
+    h2 {
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 2.5rem;
+        color: $colorTxtBrown;
+        padding-bottom: 3.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: $colorTxtBrown;
+        line-height: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    a {
+        display: block;
+        padding-bottom: 1.5rem;
+    }
+
+    img {
+        width: 100%;
+    }
+}

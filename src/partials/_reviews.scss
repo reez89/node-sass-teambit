@@ -1,0 +1,50 @@
+#reviews {
+    @include flex(flex-start, flex-start);
+    width: 100vw;
+    margin-top: 3.5rem;
+
+    a {
+        color: $colorBtnBlue;
+    }
+}
+
+.reviews_img {
+    width: 50%;
+}
+
+.employee_reviews {
+    width: 20%;
+}
+
+.reviews_img {
+    img {
+        width: 100%;
+    }
+}
+
+.employee_reviews {
+    h2 {
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 2.5rem;
+        color: $colorTxtBrown;
+        padding-bottom: 3.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: $colorTxtBrown;
+        line-height: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    a {
+        display: block;
+        padding-bottom: 1.5rem;
+    }
+
+    img {
+        width: 100%;
+    }
+}
